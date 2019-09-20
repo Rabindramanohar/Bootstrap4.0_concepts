@@ -1,0 +1,26 @@
+body{
+    background: url(1.jpg) no-repeat fixed center center;
+    background-size: cover;
+    font-family: 'Vibes', cursive;
+    font-family: 'EB Garamond', serif;
+}
+.rowHeight{
+    height: 300px;
+}
+h1{
+    color: rgb(216, 221, 230);
+    height: 2.5em;
+}
+.bg{
+    background-color: #c1c1c1;
+    opacity: 0.9;
+}
+.footer{
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+}
+p{
+    font-size: 15px;
+    padding: 10px;
+}

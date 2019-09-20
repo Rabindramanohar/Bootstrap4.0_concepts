@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Flex3 Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <style>
+        .green{
+            background-color: green;
+        }
+        .blue{
+            background-color: blue;
+        }
+        .orange{
+            background-color: orange;
+        }
+        .con{
+            background-color: grey;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<!--
+flex-frist
+flex-last
+
+offset-md-4
+
+push
+pull
+
+nesting 
+-->
+
+<body>
+    <div class="container con">
+        <div class="row">
+            <div class="col-md-9  green">
+                <div class="row">
+                    <div class="col-md-6 blue">one</div>
+                    <div class="col-md-6 orange">two</div>
+                </div>
+            </div>
+            <div class="col-md-3   blue">Thor</div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js"></script>
+
+</html>
